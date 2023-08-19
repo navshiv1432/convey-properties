@@ -1,0 +1,23 @@
+.banner-container{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("https://bhrproperties.in/static/media/jumbo.56b0569a7dcd160ad03f.jpg");
+    height: 300px;
+    opacity: 0.8;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.contact-text{
+    border: 2px solid #ffffff;
+    height: 50px;
+    width: 50%;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: azure;
+    opacity: 0.5;
+    color: rgba(0, 0, 0, 0.87);
+    font-size: 40px;
+    font-weight: 600;
+}

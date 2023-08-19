@@ -1,0 +1,67 @@
+.footer-container{
+    height: 20vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    font-weight: 400;
+    color: #ffffff;
+    /* background: #667db6; 
+    background: -webkit-linear-gradient(to right, #667db6, #0082c8, #0082c8, #667db6);  
+    background: linear-gradient(to right, #667db6, #0082c8, #0082c8, #667db6); */
+    background: #4ECDC4;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #556270, #4ECDC4);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #556270, #4ECDC4); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    
+
+
+}
+
+.footer-text{
+    margin-left: 150px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-icons{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 30%;
+}
+
+.icons-block{
+    width: 50%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer-icon{
+    font-size: 30px;
+    color: #ffffff;
+    cursor: pointer;
+}
+
+.footer-underline{
+    text-decoration: underline;
+}
+
+.youtube{
+    color: red;
+}
+
+.instagram{
+    background: #ff9966;  
+    background: -webkit-linear-gradient(to right, #ff5e62, #ff9966);  
+    background: linear-gradient(to right, #ff5e62, #ff9966); 
+    border-radius: 8px;
+}
+
+.twitter{
+    background-color:#1D9BF0;
+}
