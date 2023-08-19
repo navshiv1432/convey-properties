@@ -34,6 +34,7 @@ background: linear-gradient(to right, #fff, #076585); /* W3C, IE 10+/ Edge, Fire
     background-color: transparent;
     border: none;
     cursor: pointer;
+    font-weight: bold;
 }
 
 .active{
