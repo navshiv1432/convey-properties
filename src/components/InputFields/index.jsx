@@ -7,23 +7,23 @@ const InputFields = () => {
     <div className='input-fields-container'>
        <div className='options-group-container'>
         <div className='options-group'>
-            <label htmlFor="location">Location</label>
+            <label htmlFor="location" className="label">Location</label>
             <select id='location' className='input-bar'>
-                <option value="bhanu">ALL</option>
-                <option value="bhanu">Banglore</option>
-                <option value="bhanu">Hyderabad</option>
-                <option value="bhanu">Tirupati</option>
-                <option value="bhanu">Nellore</option>
+                <option value="bhanu" className='opt'>ALL</option>
+                <option value="bhanu" className='opt'>Banglore</option>
+                <option value="bhanu" className='opt'>Hyderabad</option>
+                <option value="bhanu" className='opt'>Tirupati</option>
+                <option value="bhanu" className='opt'>Nellore</option>
             </select>
         </div>
-        <div className='options-group'>
-            <label htmlFor="property">Property Types</label>
+        <div className='options-group1'>
+            <label htmlFor="property" className="label">Property Types</label>
             <select id='property' className='input-bar'>
-                <option value="bhanu">ALL Types</option>
-                <option value="bhanu">Appartment</option>
-                <option value="bhanu">Farmland</option>
-                <option value="bhanu">Villa</option>
-                <option value="bhanu">Plot</option>
+                <option value="bhanu" className='opt'>ALL Types</option>
+                <option value="bhanu" className='opt'>Appartment</option>
+                <option value="bhanu" className='opt'>Farmland</option>
+                <option value="bhanu" className='opt'>Villa</option>
+                <option value="bhanu" className='opt'>Plot</option>
             </select>
         </div>
        </div>

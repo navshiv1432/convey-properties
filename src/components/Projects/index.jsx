@@ -1,5 +1,7 @@
 import React from 'react'
 import './index.css'
+import {BsGridFill} from "react-icons/bs"
+import {MdFormatListBulleted} from "react-icons/md"
 
 const projectsData = [
     {
@@ -36,7 +38,13 @@ const Projects = () => {
   return (
     <div className='projects-container'>
        <div className='project-heading'>
-        <h1>Ongoing Projects</h1>
+        <div className="pro">
+        <h1 className="head">Ongoing Projects</h1>
+        <div className="views">
+        <BsGridFill className='grid' />
+        <MdFormatListBulleted className="grid"/>
+        </div>
+        </div>
         <hr />
        </div>
        <ul className='cards-container'>
@@ -49,6 +57,7 @@ const Projects = () => {
             </li>
         ))}
        </ul>
+       
        <div className='project-heading'>
         <h1>Upcoming Projects</h1>
         <hr />
